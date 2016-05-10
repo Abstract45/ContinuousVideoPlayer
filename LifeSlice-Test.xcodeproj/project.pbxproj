@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011A209675882488B5017232 /* Pods_LifeSlice_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893A611791E635A8AFCFCE72 /* Pods_LifeSlice_Test.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E8B11CC91CE2451300B2DF60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CC81CE2451300B2DF60 /* AppDelegate.swift */; };
-		E8B11CCB1CE2451300B2DF60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CCA1CE2451300B2DF60 /* ViewController.swift */; };
 		E8B11CCE1CE2451300B2DF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B11CCC1CE2451300B2DF60 /* Main.storyboard */; };
 		E8B11CD11CE2451300B2DF60 /* LifeSlice_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CCF1CE2451300B2DF60 /* LifeSlice_Test.xcdatamodeld */; };
 		E8B11CD31CE2451300B2DF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B11CD21CE2451300B2DF60 /* Assets.xcassets */; };
 		E8B11CD61CE2451300B2DF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B11CD41CE2451300B2DF60 /* LaunchScreen.storyboard */; };
 		E8B11CE11CE2451300B2DF60 /* LifeSlice_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CE01CE2451300B2DF60 /* LifeSlice_TestTests.swift */; };
+		E8B11CEC1CE2452B00B2DF60 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CEB1CE2452B00B2DF60 /* MainVC.swift */; };
+		E8B11CF41CE2459C00B2DF60 /* MoviePlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CF31CE2459C00B2DF60 /* MoviePlayerCell.swift */; };
+		E8B11CF61CE245C400B2DF60 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CF51CE245C400B2DF60 /* VideoModel.swift */; };
+		E8B11CF81CE245CE00B2DF60 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CF71CE245CE00B2DF60 /* APIClient.swift */; };
+		E8B11CFC1CE2460700B2DF60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B11CFB1CE2460700B2DF60 /* Constants.swift */; };
+		E8BCE89F1CE25D2700F844F4 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE89E1CE25D2700F844F4 /* VideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DEC7779E7D21ADDF22297B6 /* Pods-LifeSlice-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSlice-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeSlice-Test/Pods-LifeSlice-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		893A611791E635A8AFCFCE72 /* Pods_LifeSlice_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSlice_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7EFE3D5836ACF995C2FB53 /* Pods-LifeSlice-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSlice-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeSlice-Test/Pods-LifeSlice-Test.release.xcconfig"; sourceTree = "<group>"; };
 		E8B11CC51CE2451300B2DF60 /* LifeSlice-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LifeSlice-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B11CC81CE2451300B2DF60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8B11CCA1CE2451300B2DF60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8B11CCD1CE2451300B2DF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B11CD01CE2451300B2DF60 /* LifeSlice_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifeSlice_Test.xcdatamodel; sourceTree = "<group>"; };
 		E8B11CD21CE2451300B2DF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +46,12 @@
 		E8B11CDC1CE2451300B2DF60 /* LifeSlice-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LifeSlice-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B11CE01CE2451300B2DF60 /* LifeSlice_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSlice_TestTests.swift; sourceTree = "<group>"; };
 		E8B11CE21CE2451300B2DF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B11CEB1CE2452B00B2DF60 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E8B11CF31CE2459C00B2DF60 /* MoviePlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePlayerCell.swift; sourceTree = "<group>"; };
+		E8B11CF51CE245C400B2DF60 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		E8B11CF71CE245CE00B2DF60 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		E8B11CFB1CE2460700B2DF60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8BCE89E1CE25D2700F844F4 /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011A209675882488B5017232 /* Pods_LifeSlice_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CEE75C3E04C3746FC42F564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				893A611791E635A8AFCFCE72 /* Pods_LifeSlice_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3A9603D9920F214B197B065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DEC7779E7D21ADDF22297B6 /* Pods-LifeSlice-Test.debug.xcconfig */,
+				DC7EFE3D5836ACF995C2FB53 /* Pods-LifeSlice-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8B11CBC1CE2451300B2DF60 = {
 			isa = PBXGroup;
 			children = (
 				E8B11CC71CE2451300B2DF60 /* LifeSlice-Test */,
 				E8B11CDF1CE2451300B2DF60 /* LifeSlice-TestTests */,
 				E8B11CC61CE2451300B2DF60 /* Products */,
+				A3A9603D9920F214B197B065 /* Pods */,
+				6CEE75C3E04C3746FC42F564 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				E8B11CC81CE2451300B2DF60 /* AppDelegate.swift */,
-				E8B11CCA1CE2451300B2DF60 /* ViewController.swift */,
 				E8B11CCC1CE2451300B2DF60 /* Main.storyboard */,
+				E8B11CF11CE2454700B2DF60 /* Util */,
+				E8B11CF01CE2454300B2DF60 /* Services */,
+				E8B11CEF1CE2454000B2DF60 /* Model */,
+				E8B11CEE1CE2453C00B2DF60 /* View */,
+				E8B11CED1CE2453400B2DF60 /* Controller */,
 				E8B11CD21CE2451300B2DF60 /* Assets.xcassets */,
 				E8B11CD41CE2451300B2DF60 /* LaunchScreen.storyboard */,
 				E8B11CD71CE2451300B2DF60 /* Info.plist */,
@@ -99,6 +137,47 @@
 			path = "LifeSlice-TestTests";
 			sourceTree = "<group>";
 		};
+		E8B11CED1CE2453400B2DF60 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8B11CEB1CE2452B00B2DF60 /* MainVC.swift */,
+				E8BCE89E1CE25D2700F844F4 /* VideoPlayer.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8B11CEE1CE2453C00B2DF60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8B11CF31CE2459C00B2DF60 /* MoviePlayerCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8B11CEF1CE2454000B2DF60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8B11CF51CE245C400B2DF60 /* VideoModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8B11CF01CE2454300B2DF60 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E8B11CF71CE245CE00B2DF60 /* APIClient.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E8B11CF11CE2454700B2DF60 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E8B11CFB1CE2460700B2DF60 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8B11CE51CE2451300B2DF60 /* Build configuration list for PBXNativeTarget "LifeSlice-Test" */;
 			buildPhases = (
+				2EA1C38989C2D352DAED2A13 /* Check Pods Manifest.lock */,
 				E8B11CC11CE2451300B2DF60 /* Sources */,
 				E8B11CC21CE2451300B2DF60 /* Frameworks */,
 				E8B11CC31CE2451300B2DF60 /* Resources */,
+				73581057203501DC446C0F58 /* Embed Pods Frameworks */,
+				1E08BD951B624E45A7C0A26C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,14 +277,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E08BD951B624E45A7C0A26C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeSlice-Test/Pods-LifeSlice-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA1C38989C2D352DAED2A13 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73581057203501DC446C0F58 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeSlice-Test/Pods-LifeSlice-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8B11CC11CE2451300B2DF60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E8B11CD11CE2451300B2DF60 /* LifeSlice_Test.xcdatamodeld in Sources */,
-				E8B11CCB1CE2451300B2DF60 /* ViewController.swift in Sources */,
+				E8B11CF41CE2459C00B2DF60 /* MoviePlayerCell.swift in Sources */,
+				E8B11CEC1CE2452B00B2DF60 /* MainVC.swift in Sources */,
+				E8B11CF61CE245C400B2DF60 /* VideoModel.swift in Sources */,
 				E8B11CC91CE2451300B2DF60 /* AppDelegate.swift in Sources */,
+				E8B11CF81CE245CE00B2DF60 /* APIClient.swift in Sources */,
+				E8B11CFC1CE2460700B2DF60 /* Constants.swift in Sources */,
+				E8BCE89F1CE25D2700F844F4 /* VideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +464,7 @@
 		};
 		E8B11CE61CE2451300B2DF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEC7779E7D21ADDF22297B6 /* Pods-LifeSlice-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LifeSlice-Test/Info.plist";
@@ -340,6 +476,7 @@
 		};
 		E8B11CE71CE2451300B2DF60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7EFE3D5836ACF995C2FB53 /* Pods-LifeSlice-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LifeSlice-Test/Info.plist";
@@ -392,6 +529,7 @@
 				E8B11CE71CE2451300B2DF60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8B11CE81CE2451300B2DF60 /* Build configuration list for PBXNativeTarget "LifeSlice-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +538,7 @@
 				E8B11CEA1CE2451300B2DF60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
